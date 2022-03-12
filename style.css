@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    background-color: #313131;
+    position: fixed;
+}
+#navbar #nav{
+    float: right;
+    padding-top: 15px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+}
+li a{
+    text-decoration: none;
+    color: #fafafa;
+}
+li a:hover {
+    color: #cbcbcb;
+}
+#logo{
+    float: left;
+}
